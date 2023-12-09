@@ -6,9 +6,25 @@
   scroll-behavior: smooth;
 }
 
-html, section {
+.bg-base {
   background-color: #212121;
 }
+
+.bg-base-2 {
+  background-color: #1C1A1A;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Navbar */
 
 .navbar {
   background-color: #252525;
@@ -22,16 +38,22 @@ html, section {
   color: #fff;
 }
 
+.nav-border {
+  border-bottom: 1px solid black;
+}
+
+/* Home */
+
+.sec-home {
+  margin-bottom: 100px;
+}
+
 .text-wc {
   color: #ffa552;
 }
 
 .text-sl {
   color: #f10404;
-}
-
-.nav-border {
-  border-bottom: 1px solid black;
 }
 
 .button-container {
@@ -42,4 +64,112 @@ html, section {
   text-align: center;
   background: #252525;
   box-shadow: 0 4px 2px -2px #111;
+}
+
+/* About */
+
+.sec-about {
+  margin-bottom: 100px;
+}
+
+.text-story {
+  padding-left: 3rem;
+}
+
+.about-bar {
+  border-top: 1px solid black;
+}
+
+.text-preview {
+  text-transform: uppercase;
+}
+
+.text-about {
+  color: #FFA552;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Menu */
+
+.sec-menu {
+  margin-bottom: 100px;
+}
+
+.menu-bar {
+  margin-bottom: 75px;
+  border-top: 1px solid black;
+}
+
+.text-menu {
+  color: #FFA552;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu-column {
+  gap: 35px;
+}
+
+.menu-1 {
+  width: 434px;
+  height: 620px;
+  background-color: #BE5B00;
+  border-radius: 14px;
+}
+
+.menu-judul-1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/* Our Team */
+
+.sec-team {
+  margin-bottom: 100px;
+}
+
+.team-bar {
+  margin-bottom: 75px;
+  border-top: 1px solid black;
+}
+
+.text-team {
+  color: #FFA552;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+  background-color: #252525;
+}
+
+.footer-bar {
+  border-top: 1px solid black;
+}
+
+.footer-judul {
+  background-color: #212121;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 1px #111;
+  width: 466px;
+  height: 160px;
+}
+
+.text-footer-judul {
+  color: #FFA552;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.contact-bar {
+  width: 763px;
+  height: 420px;
+  background-color: #BE5B00;
+  border-radius: 20px;
 }
