@@ -28,6 +28,8 @@
 
 .navbar {
   background-color: #252525;
+  height: 100px;
+  display: block;
 }
 
 .navbar-ul {
@@ -46,6 +48,8 @@
 
 .sec-home {
   margin-bottom: 100px;
+  height: 650px;
+  padding-top: 90px;
 }
 
 .text-wc {
@@ -88,6 +92,11 @@
   color: #FFA552;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.p-5 {
+  margin: 0 auto;
+  display: block;
 }
 
 /* Menu */
