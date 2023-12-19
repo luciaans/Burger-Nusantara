@@ -6,6 +6,7 @@
   scroll-behavior: smooth;
 }
 
+
 .bg-base {
   background-color: #212121;
 }
@@ -134,6 +135,12 @@
   font-size: 32px;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
 /* Our Team */
 
 .sec-team {
@@ -182,3 +189,4 @@ footer {
   background-color: #BE5B00;
   border-radius: 20px;
 }
+
