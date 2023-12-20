@@ -1,120 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
 }
 
-
-.bg-base {
+html {
   background-color: #212121;
 }
 
-.bg-base-2 {
-  background-color: #1C1A1A;
+/* Navbar */
+
+.navbar {
+  border-bottom: 1px solid black;
+}
+
+.bg-custom-1, .container-fluid {
+  background-color: #252525;
 }
 
 .clearfix {
   overflow: auto;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+/* Home */
+
+.home {
+  background-color: #212121;
+  padding: 60px 0 126px 0;
+  height: auto;
 }
 
-/* NAVBAR */
-
-.navbar {
-  background-color: #252525;
-  height: 100px;
-  display: block;
-}
-
-.navbar-ul {
-  margin-left: auto;
-}
-
-.nav-item a {
-  color: #fff;
-}
-
-.nav-border {
-  border-bottom: 1px solid black;
-}
-
-/* HOME */
-
-.sec-home {
-  margin-bottom: 100px;
-  height: 650px;
-  padding-top: 90px;
-}
-
-.text-wc {
+.home-info h1 {
   color: #ffa552;
 }
 
-.text-sl {
+.home-info h2 {
   color: #f10404;
 }
 
-.button-container {
-  width: 250px;
-  height: 50px;
+.home a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: 700;
+  padding: 10px 50px 10px 50px;
   border-radius: 10px;
-  font-size: 25px;
-  text-align: center;
   background: #252525;
   box-shadow: 0 4px 2px -2px #111;
+  transition: ease-in 0.2s;
 }
 
-/* ABOUT */
-
-.sec-about {
-  margin-bottom: 100px;
+.home a:hover {
+  color: #252525;
+  background-color: white;
 }
 
-.text-story {
-  padding-left: 3rem;
+/* About */
+
+.about {
+  background-color: #212121;
+  padding: 0px 0 60px 0;
+  height: auto;
 }
 
 .about-bar {
   border-top: 1px solid black;
+  background-color: #1C1A1A;
 }
 
-.text-preview {
-  text-transform: uppercase;
+.about-bar h1 {
+  color: #ffa552;
 }
 
-.text-about {
-  color: #FFA552;
-  text-transform: uppercase;
-  font-weight: bold;
+.about img {
+  border-radius: 5px;
+  box-shadow: 0 4px 2px -2px #111;
 }
 
-.p-5 {
-  margin: 0 auto;
-  display: block;
+.about-info-2 {
+  margin-bottom: 50px;
 }
 
-/* MENU */
+.preview h1 {
+  padding: 10px 50px 10px 50px;
+  border-radius: 10px;
+  background: #252525;
+  box-shadow: 0 4px 2px -2px #111;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.sec-menu {
-  margin-bottom: 100px;
+/* Menu */
+
+.menu {
+  background-color: #212121;
+  padding: 0px 0 60px 0;
+  height: auto;
 }
 
 .menu-bar {
-  margin-bottom: 75px;
   border-top: 1px solid black;
+  background-color: #1C1A1A;
 }
 
-.text-menu {
-  color: #FFA552;
-  text-transform: uppercase;
-  font-weight: bold;
+.menu-bar h1 {
+  color: #ffa552;
 }
 
 .menu-column {
@@ -135,57 +129,46 @@
   font-size: 32px;
 }
 
-.img-fluid {
-  max-width: 100%;
+/* Team */
+
+.team {
+  background-color: #212121;
+  padding: 0px 0 60px 0;
   height: auto;
 }
 
-
-/* OUR TEAM */
-
-.sec-team {
-  margin-bottom: 100px;
-}
-
 .team-bar {
-  margin-bottom: 75px;
   border-top: 1px solid black;
+  background-color: #1C1A1A;
 }
 
-.text-team {
-  color: #FFA552;
-  text-transform: uppercase;
-  font-weight: bold;
+.team-bar h1 {
+  color: #ffa552;
 }
 
-/* FOOTER */
+/* Footer */
 
 footer {
-  background-color: #252525;
-}
-
-.footer-bar {
   border-top: 1px solid black;
+  background-color: #252525;
+  padding: 60px 0 0 0;
+  height: auto;
 }
 
-.footer-judul {
+footer .img-logo {
   background-color: #212121;
   border-radius: 20px;
   box-shadow: 0 1px 2px 1px #111;
-  width: 466px;
-  height: 160px;
+  padding-right: 15px;
 }
 
-.text-footer-judul {
-  color: #FFA552;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 24px;
+footer .img-logo h4 {
+  color: #ffa552;
 }
 
-.contact-bar {
-  width: 763px;
-  height: 420px;
+footer .contact {
   background-color: #BE5B00;
   border-radius: 20px;
+  box-shadow: 0 1px 2px 1px #111;
+  padding-right: 15px;
 }

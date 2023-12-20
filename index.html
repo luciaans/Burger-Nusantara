@@ -1,248 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Nusantara</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom-1">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" width="128px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Burger Nusantara</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css">
-</head>
-
-<body class="bg-base">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark nav-border">
-          <div class="container p-xl-1">
-            <a class="navbar-brand" href="index.html">
-              <img src="img/logo.png" alt="Logo" width="110px" class="d-inline-block align-text-top img-fluid">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto gap-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#menu">Menu</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#team">Our Team</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-        <!-- HOME -->
-        <section class="sec-home d-flex " id="home">
-          <div class="text-all p-5 mt-5 container">
-            <h2 class="text-wc fw-bold mt-5">Selamat Datang</h2>
-            <h1 class="text-sl text-uppercase fw-bold">Belum Kenyang kalo bukan nasi!</h1>
-            <p class="text-ds ">Burger Nusantara adalah variasi burger yang menggabungkan elemen-elemen kuliner
-              Indonesia ke
-              dalam konsep burger.</p>
-            <a class="nav-link p-3 button-container text-uppercase " href="#menu">View Menu</a>
-          </div>
-          <div class="row">
-            <img src="img/burger_home.png" width="512px" alt="makanan" class="mt-5 img-fluid rounded float-end">
-          </div>
-        </section>
-
-        <!-- ABOUT -->
-        <section class="sec-about" id="about">
-          <div class="about-bar mt-5 bg-base-2 p-4">
-            <h1 class="text-center text-about">About</h1>
-          </div>
-          <p class="">
-          <div class="history p-5 d-flex gap-5 align-items-center clearfix">
-            <img src="img/history.png" width="256px" alt="history" class="img-fluid rounded">
-            <p>Pada tahun 2014, Kami berkomitmen untuk membawa cita rasa Nusantara ke dunia burger melalui pendirian
-              "Burger
-              Nusantara." Dalam perjalanan bisnis kami, tujuan utama kami adalah untuk menghadirkan keunikan kuliner
-              Nusantara
-              dalam setiap gigitan burger kami.
-              <br>
-              <br>
-              Kami mulai perjalanan kami dengan giat mencari inspirasi dari berbagai referensi, dengan tekad untuk
-              menciptakan
-              burger Nusantara yang benar-benar unik. Pada tahap awal, fokus utama kami adalah pada pengembangan menu
-              yang
-              menggabungkan elemen-elemen kuliner Nusantara, seperti Saus Rendang, Saus Cabe Ijo, dan Saus Semur, dengan
-              konsep yang menggantikan roti burger dengan nasi. Menu yang unik ini menjadi ciri khas kami dan membedakan
-              "Burger Nusantara" dari pesaing-pesaing kami.
-            </p>
-          </div>
-          <div class="story d-flex gap-5 align-items-center clearfix">
-            <p class="text-story text-lg-end ">Awalnya, bisnis kami dimulai sebagai gerai kecil di wilayah Pontianak
-              Kota,
-              dengan harapan untuk menarik pelanggan setia yang menghargai kualitas tinggi dan autentisitas cita rasa
-              Nusantara dalam burger kami. Sejak itu, kami terus berkomitmen untuk memberikan pengalaman kuliner yang
-              istimewa
-              dan memuaskan kepada pelanggan kami, serta terus berinovasi untuk menjaga agar "Burger Nusantara" tetap
-              menjadi
-              destinasi utama bagi para pencinta burger dan cita rasa Nusantara.</p>
-            <img src="img/story.png" width="256px" alt="story" class="img-fluid rounded">
-          </div>
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="d-lg-flex d-sm-block justify-content-between align-items-center">
+        <div class="home-info w-auto me-lg-5 mb-3 mb-lg-0 p-5">
+          <h2 class="fw-bold">Selamat Datang!</h2>
+          <h1 class="text-uppercase fw-bold">Belum Kenyang kalo bukan nasi!</h1>
+          <p>Burger Nusantara adalah variasi burger yang menggabungkan elemen-elemen kuliner Indonesia ke dalam konsep burger.</p>
+          <br>
+          <a href="#">View Menu</a>
+        </div>
+        <div class="text-center">
+          <img class="img-fluid" src="img/burger_home.png" width="512px">
+        </div>
+      </div>
+    </section>
+    
+    <!-- About -->
+    <section class="about clearfix" id="about">
+      <div class="about-bar p-2">
+        <p>
+          <h1 class="text-center text-uppercase fw-bold ">About</h1>
+        </p>
+      </div>
+      <p>
+        <div class="about-info-1 d-lg-flex d-sm-block gap-5 align-items-center p-5">
+          <img class="img-fluid mb-5 mb-sm-0" src="img/history.png">
+          <p class="container ">
+            Pada tahun 2014, Kami berkomitmen untuk membawa cita rasa Nusantara ke dunia burger melalui pendirian "Burger
+            Nusantara." Dalam perjalanan bisnis kami, tujuan utama kami adalah untuk menghadirkan keunikan kuliner Nusantara
+            dalam setiap gigitan burger kami.
+            <br>
+            <br>
+            Kami mulai perjalanan kami dengan giat mencari inspirasi dari berbagai referensi, dengan tekad untuk menciptakan
+            burger Nusantara yang benar-benar unik. Pada tahap awal, fokus utama kami adalah pada pengembangan menu yang
+            menggabungkan elemen-elemen kuliner Nusantara, seperti Saus Rendang, Saus Cabe Ijo, dan Saus Semur, dengan
+            konsep yang menggantikan roti burger dengan nasi. Menu yang unik ini menjadi ciri khas kami dan membedakan
+            "Burger Nusantara" dari pesaing-pesaing kami.
           </p>
-          <div class="priview-bar mt-5">
-            <h1 class="text-center text-preview">Preview Video</h1>
-          </div>
-          <div class="ratio ratio-21x9">
-            <iframe class="p-5" width="560" height="315"
-              src="https://www.youtube.com/embed/Unu2q8tr2i4?si=NDPbuofnMMyyRRLd" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-          </div>
-        </section>
+        </div>
+        <div class="about-info-2 d-lg-flex d-lg-block gap-5 align-items-center px-5">
+          <p class="container mb-5 mb-sm-0">
+            Awalnya, bisnis kami dimulai sebagai gerai kecil di wilayah Pontianak Kota,
+            dengan harapan untuk menarik pelanggan setia yang menghargai kualitas tinggi dan autentisitas cita rasa
+            Nusantara dalam burger kami. Sejak itu, kami terus berkomitmen untuk memberikan pengalaman kuliner yang istimewa
+            dan memuaskan kepada pelanggan kami, serta terus berinovasi untuk menjaga agar "Burger Nusantara" tetap menjadi
+            destinasi utama bagi para pencinta burger dan cita rasa Nusantara.
+          </p>
+          <img class="img-fluid" src="img/story.png">
+        </div>
+      </p>
+      <div class="preview p-2">
+        <p>
+          <h1 class="text-center text-uppercase fw-bold ">Preview Video</h1>
+        </p>
+        <div class="ratio ratio-16x9">
+          <iframe class="p-5" width="560" height="315"
+            src="https://www.youtube.com/embed/Unu2q8tr2i4?si=NDPbuofnMMyyRRLd" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
 
-        <!-- MENU -->
-        <section class="sec-menu" id="menu">
-          <div class="menu-bar mt-5 bg-base-2 p-4">
-            <h1 class="text-center text-menu">Menu</h1>
-          </div>
-          <div class="container">
-            <div class="row justify-content-center align-items-center">
-              <div class="col-md-4">
-                <div class="d-flex p-3 mt-5 menu-column justify-content-center">
-                  <div class="menu-1 p-4 text-center">
-                    <img class="center img-fluid mb-3" src="/img/burger_rendang.png" alt="burger">
-                    <h1 class="mt-4 menu-judul-1">BURGER RENDANG</h1>
-                    <p class="mt-4">
-                      Burger Rendang adalah burger dengan patty daging rendang, menggabungkan cita rasa rendang
-                      Indonesia dengan konsep burger Barat.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="d-flex p-3 mt-5 menu-column justify-content-center">
-                  <div class="menu-1 p-4 text-center">
-                    <img class="center img-fluid mb-3" src="/img/burger_cabeijo.png" alt="burger">
-                    <h1 class="mt-4 menu-judul-1">BURGER CABE IJO</h1>
-                    <p class="mt-4">
-                      Burger Cabe Ijo adalah burger dengan patty daging yang dimasak dengan bumbu cabe hijau, memberikan
-                      cita rasa pedas dan segar.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="d-flex p-3 mt-5 menu-column justify-content-center">
-                  <div class="menu-1 p-4 text-center">
-                    <img class="center img-fluid mb-3" src="/img/burger_semur.png" alt="burger">
-                    <h1 class="mt-4 menu-judul-1">BURGER SEMUR</h1>
-                    <p class="mt-4">
-                      Burger Semur adalah burger dengan patty daging yang dimasak dengan bumbu semur, memberikan cita
-                      rasa manis dan gurih.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- OUR TEAM -->
-        <section class="sec-team" id="team">
-          <div class="team-bar mt-5 bg-base-2 p-4">
-            <h1 class="text-center text-team">Our Team</h1>
-          </div>
-          <div class="p-5 text-center">
-            <div class="row justify-content-center align-items-center mb-4">
-              <div class="col-md-5">
-                <img src="img/team1.png" alt="team1" class="img-fluid mb-3">
-              </div>
-              <div class="col-md-5">
-                <img src="img/team2.png" alt="team2" class="img-fluid mb-3">
-              </div>
-            </div>
-            <div class="px-md-5">
-              <p class="text-center">
-                Selama kami mengerjakan proyek ini kami ingin mengucapkan terima kasih kepada semua penjual yang telah
-                bersedia memberikan informasi dan pengalaman mereka kepada kami. Mereka bukan hanya mitra dagang, tetapi
-                juga guru yang luar biasa yang membantu kami mempelajari lebih lanjut tentang topik yang kami geluti.
-                Kami telah belajar banyak dari berbicara dengan mereka dan bertemu dengan mereka, dan bantuan mereka
-                telah membuat proyek ini jauh lebih bermanfaat.
-                <br><br>
-                Selain itu, kami sangat beruntung memiliki dosen yang memberi dukungan dan bimbingan mereka selama
-                perjalanan ini. Mereka telah memberikan bimbingan yang cermat, perspektif yang berharga, dan petunjuk
-                yang jelas tentang bagaimana kita dapat mencapai tujuan proyek. Dosen kami bukan hanya pengajar tetapi
-                juga orang yang membantu kami belajar.
-                <br><br>
-                Kami berterima kasih atas kesempatan untuk bekerja sama dengan orang-orang yang luar biasa ini, dan kami
-                berkomitmen untuk mempertahankan hubungan ini di masa depan. Dengan semangat yang sama, kami berharap
-                dapat melanjutkan perjalanan kami dan mencapai hasil yang lebih baik lagi dalam proyek-proyek mendatang.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- FOOTER -->
-        <footer class="sec-footer" id="contact">
-          <div class="footer-bar p-5">
-            <div class="mt-5 d-flex gap-5">
-              <div class="footer-judul d-flex align-items-center p-2">
-                <img class="clearfix" src="img/logo_footer.png" width="150px" alt="logo">
-                <h3 class="text-footer-judul ">Burger Nusantara</h3>
-              </div>
-              <div class="contact-bar p-5">
-                <p>
-                  <span class="fw-bold fs-3 ">Hubungi Kami</span>
-                  <br>
-                  <br>
-                  <span class="fw-bold">Telepon:</span> <a class="text-decoration-none text-white"
-                    href="tel:+6281251920769" target="_blank">0812-5192-0769</a>
-                  <br>
-                  <br>
-                  <span class="fw-bold">Email:</span> <a class="text-decoration-none text-white"
-                    href="mailto:burgernusantara2015@gmail.com" target="_blank">burgernusantara2015@gmail.com</a>
-                  <br>
-                  <br>
-                  <span class="fw-bold">Alamat:</span>
-                  <br>
-                  <a class="text-decoration-none text-white" href="#" target="_blank">Jalan Nawawi Hasan, Perumnas 2
-                    (Depan
-                    Lapangan Voli) Kecematan Pontianak Barat, Pontianak, Kalimantan Barat</a>
-                  <br>
-                  <br>
-                  <span class="fw-bold">Waktu Buka:</span>
-                  <br>
-                  Senin - Sabtu (11:00 - 20:00 WIB)
+    <!-- Menu -->
+    <section class="menu clearfix" id="menu">
+      <div class="menu-bar p-2">
+        <p>
+          <h1 class="text-center text-uppercase fw-bold ">Menu</h1>
+        </p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4">
+            <div class="d-flex p-3 mt-5 menu-column justify-content-center">
+              <div class="menu-1 p-4 text-center">
+                <marquee direction="left">⭐ DISKON 20% OFF ⭐</marquee>
+                <img class="center img-fluid mb-3" src="img/burger_rendang.png" alt="burger">
+                <h1 class="mt-4 menu-judul-1">BURGER RENDANG</h1>
+                <p class="mt-4">
+                  Burger Rendang adalah burger dengan patty daging rendang, menggabungkan cita rasa rendang
+                  Indonesia dengan konsep burger Barat.
                 </p>
               </div>
             </div>
-            <hr class="mt-5">
-            <div class="mt-5 d-flex gap-3 align-items-center ">
-              <a class="text-decoration-none" href="https://www.instagram.com/burgernusantara/" target="_blank"><img
-                  src="img/instagram.png" width="52px" alt="ig"></a>
-              <a class="text-decoration-none"
-                href="https://www.facebook.com/profile.php?id=100010791466353&mibextid=LQQJ4d" target="_blank"><img
-                  src="img/facebook.png" width="52px" alt="fb"></a>
-              <a class="text-decoration-none" href="https://www.tiktok.com/@burgernusantara" target="_blank"><img
-                  src="img/tiktok.png" width="52px" alt="tt"></a>
-              <p class="ms-auto">© Copyright Burger Nusantara 2023 </p>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex p-3 mt-5 menu-column justify-content-center">
+              <div class="menu-1 p-4 text-center">
+                <marquee direction="left">⭐ PROMO HARI INI ⭐</marquee>
+                <img class="center img-fluid mb-3" src="img/burger_cabeijo.png" alt="burger">
+                <h1 class="mt-4 menu-judul-1">BURGER CABE IJO</h1>
+                <p class="mt-4">
+                  Burger Cabe Ijo adalah burger dengan patty daging yang dimasak dengan bumbu cabe hijau, memberikan
+                  cita rasa pedas dan segar.
+                </p>
+              </div>
             </div>
           </div>
-        </footer>
-
+          <div class="col-md-4">
+            <div class="d-flex p-3 mt-5 menu-column justify-content-center">
+              <div class="menu-1 p-4 text-center">
+                <marquee direction="left">⭐ BEST SELLER ⭐</marquee>
+                <img class="center img-fluid mb-3" src="img/burger_semur.png" alt="burger">
+                <h1 class="mt-4 menu-judul-1">BURGER SEMUR</h1>
+                <p class="mt-4">
+                  Burger Semur adalah burger dengan patty daging yang dimasak dengan bumbu semur, memberikan cita
+                  rasa manis dan gurih.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.bundle.min.js"></script>
-</body>
+    </section>
 
+    <!-- Our Team -->
+    <section class="team" id="team">
+      <div class="team-bar p-2">
+        <p>
+          <h1 class="text-center text-uppercase fw-bold ">Our Team</h1>
+        </p>
+      </div>
+      <div class="p-5 text-center">
+        <div class="row justify-content-center align-items-center mb-4">
+          <div class="col-md-5">
+            <img src="img/team1.png" alt="team1" class="img-fluid mb-3">
+          </div>
+          <div class="col-md-5">
+            <img src="img/team2.png" alt="team2" class="img-fluid mb-3">
+          </div>
+        </div>
+        <div class="px-md-5">
+          <p class="text-center">
+            Selama kami mengerjakan proyek ini kami ingin mengucapkan terima kasih kepada semua penjual yang telah
+            bersedia memberikan informasi dan pengalaman mereka kepada kami. Mereka bukan hanya mitra dagang, tetapi
+            juga guru yang luar biasa yang membantu kami mempelajari lebih lanjut tentang topik yang kami geluti.
+            Kami telah belajar banyak dari berbicara dengan mereka dan bertemu dengan mereka, dan bantuan mereka
+            telah membuat proyek ini jauh lebih bermanfaat.
+            <br><br>
+            Selain itu, kami sangat beruntung memiliki dosen yang memberi dukungan dan bimbingan mereka selama
+            perjalanan ini. Mereka telah memberikan bimbingan yang cermat, perspektif yang berharga, dan petunjuk
+            yang jelas tentang bagaimana kita dapat mencapai tujuan proyek. Dosen kami bukan hanya pengajar tetapi
+            juga orang yang membantu kami belajar.
+            <br><br>
+            Kami berterima kasih atas kesempatan untuk bekerja sama dengan orang-orang yang luar biasa ini, dan kami
+            berkomitmen untuk mempertahankan hubungan ini di masa depan. Dengan semangat yang sama, kami berharap
+            dapat melanjutkan perjalanan kami dan mencapai hasil yang lebih baik lagi dalam proyek-proyek mendatang.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="clearfix" id="contact">
+      <div class="d-lg-flex d-lg-block gap-5 align-items-start px-5">
+        <div class="img-logo d-flex gap-2 align-items-center mb-5 mb-sm-0">
+          <img class="clearfix" src="img/logo_footer.png" width="100px">
+          <h4 class="fw-bold text-uppercase ">Burger Nusantara</h4>
+        </div>
+        <div class="contact gap-2 align-items-center px-3 py-4" id="contact">
+          <p>
+            <span class="fw-bold fs-3">Hubungi Kami</span>
+            <br>
+            <br>
+            <span class="fw-bold">Telepon:</span> <a class="text-decoration-none text-white"
+              href="tel:+6281251920769" target="_blank">0812-5192-0769</a>
+            <br>
+            <br>
+            <span class="fw-bold">Email:</span> <a class="text-decoration-none text-white"
+              href="mailto:burgernusantara2015@gmail.com" target="_blank">burgernusantara2015@gmail.com</a>
+            <br>
+            <br>
+            <span class="fw-bold">Alamat:</span>
+            <br>
+            <a class="text-decoration-none text-white" href="#" target="_blank">Jalan Nawawi Hasan, Perumnas 2
+              (Depan
+              Lapangan Voli) Kecematan Pontianak Barat, Pontianak, Kalimantan Barat</a>
+            <br>
+            <br>
+            <span class="fw-bold">Waktu Buka:</span>
+            <br>
+            Senin - Sabtu (11:00 - 20:00 WIB)
+          </p>
+        </div>
+      </div>
+      <div class="p-3">
+        <hr class="mt-5">
+        <div class="mt-2 d-flex gap-3 align-items-center ">
+          <a class="text-decoration-none" href="https://www.instagram.com/burgernusantara/" target="_blank"><img
+            src="img/instagram.png" width="52px" alt="ig"></a>
+          <a class="text-decoration-none"
+            href="https://www.facebook.com/profile.php?id=100010791466353&mibextid=LQQJ4d" target="_blank"><img
+            src="img/facebook.png" width="52px" alt="fb"></a>
+          <a class="text-decoration-none" href="https://www.tiktok.com/@burgernusantara" target="_blank"><img
+            src="img/tiktok.png" width="52px" alt="tt"></a>
+          <p class="ms-auto">© Copyright Burger Nusantara 2023 </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
