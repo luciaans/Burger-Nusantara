@@ -25,7 +25,7 @@
   margin-right: auto;
 }
 
-/* Navbar */
+/* NAVBAR */
 
 .navbar {
   background-color: #252525;
@@ -45,7 +45,7 @@
   border-bottom: 1px solid black;
 }
 
-/* Home */
+/* HOME */
 
 .sec-home {
   margin-bottom: 100px;
@@ -71,7 +71,7 @@
   box-shadow: 0 4px 2px -2px #111;
 }
 
-/* About */
+/* ABOUT */
 
 .sec-about {
   margin-bottom: 100px;
@@ -100,7 +100,7 @@
   display: block;
 }
 
-/* Menu */
+/* MENU */
 
 .sec-menu {
   margin-bottom: 100px;
@@ -141,7 +141,7 @@
 }
 
 
-/* Our Team */
+/* OUR TEAM */
 
 .sec-team {
   margin-bottom: 100px;
@@ -158,7 +158,7 @@
   font-weight: bold;
 }
 
-/* Footer */
+/* FOOTER */
 
 footer {
   background-color: #252525;
