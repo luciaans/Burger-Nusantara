@@ -26,6 +26,18 @@ html {
   overflow: auto;
 }
 
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.2s; 
+}
+
+#navbar.scrolled {
+  top: -100px; 
+}
+
+
 /* Home */
 
 .home {
