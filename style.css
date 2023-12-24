@@ -133,6 +133,7 @@ html {
   height: 620px;
   background-color: #BE5B00;
   border-radius: 14px;
+  box-shadow: 0 4px 2px -2px #111;
 }
 
 .menu-judul-1 {
