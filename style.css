@@ -16,6 +16,7 @@ html {
 
 .navbar {
   border-bottom: 1px solid black;
+  z-index: 10;
 }
 
 .bg-custom-1, .container-fluid {
