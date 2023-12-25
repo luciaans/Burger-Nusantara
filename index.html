@@ -18,6 +18,12 @@
     </button>
   </div>
 
+  <!-- Audio -->
+  <audio id="myAudio" autoplay loop>
+    <source src="/audio/background_music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-custom-1" id="navbar">
     <div class="container-fluid px-5">
@@ -47,11 +53,6 @@
           </li>
         </ul>
       </div>
-      <!-- Audio -->
-      <audio id="myAudio" autoplay loop>
-        <source src="/audio/background_music.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
     </div>
   </nav> 
 
@@ -278,21 +279,28 @@
   <script>
     var audio = document.getElementById('myAudio');
     var muteImg = document.getElementById('muteImg');
+    var muteBtn = document.getElementById('muteBtn');
 
-    document.getElementById('muteBtn').addEventListener('click', function (e)
-    {
+    audio.autoplay = true;
+    audio.muted = false;
+
+    muteImg.src = "/img/mute.png";
+
+    muteBtn.addEventListener('click', function (e) {
       e = e || window.event;
+
       audio.muted = !audio.muted;
 
       if (audio.muted) {
-        muteImg.src = "/img/play.png"
+        muteImg.src = "/img/play.png";
       } else {
-        muteImg.src = "/img/mute.png"
+        muteImg.src = "/img/mute.png";
       }
 
       e.preventDefault();
     }, false);
   </script>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
