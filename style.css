@@ -19,11 +19,12 @@ html {
   z-index: 10;
 }
 
-.nav-logo:hover{
+.nav-logo:hover {
   opacity: 0.5 !important;
 }
 
-.bg-custom-1, .container-fluid {
+.bg-custom-1,
+.container-fluid {
   background-color: #252525;
 }
 
@@ -35,11 +36,11 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
-  transition: top 0.2s; 
+  transition: top 0.2s;
 }
 
 #navbar.scrolled {
-  top: -100px; 
+  top: -100px;
 }
 
 
@@ -147,7 +148,7 @@ html {
   font-size: 32px;
 }
 
-marquee { 
+marquee {
   padding-bottom: 18px;
 }
 
@@ -195,24 +196,26 @@ footer .contact {
   padding-right: 15px;
 }
 
-.footer .logo { 
+.footer .logo {
   margin: 0 15px 0 15px;
 }
 
-.footer p { 
+.footer p {
   margin-top: 16px;
 }
 
-.maps-link:hover{
+.maps-link:hover {
   color: #ffa552 !important;
 }
 
-.ig-logo:hover{
+.ig-logo:hover {
   opacity: 0.5 !important;
 }
-.fb-logo:hover{
+
+.fb-logo:hover {
   opacity: 0.5 !important;
 }
-.tiktok-logo:hover{
+
+.tiktok-logo:hover {
   opacity: 0.5 !important;
 }
