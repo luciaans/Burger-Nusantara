@@ -43,6 +43,18 @@
     </div>
   </nav>
 
+  <!-- Audio -->
+  <audio id="myAudio" autoplay loop>
+    <source src="/audio/background music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  
+  <!-- Controls -->
+  <div class="audio-controls">
+    <button id="playPauseBtn">Play/Pause</button>
+    <button id="muteBtn">Mute/Unmute</button>
+  </div>  
+
   <!-- Home -->
   <section class="home" id="home">
     <div class="d-lg-flex d-sm-block justify-content-between align-items-center">
@@ -262,6 +274,33 @@
       lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
     });
   </script>
+
+  <script>
+    const audio = document.getElementById('myAudio');
+    const playPauseBtn = document.getElementById('playPauseBtn');
+    const muteBtn = document.getElementById('muteBtn');
+  
+    function togglePlay() {
+      if (audio.paused) {
+        audio.play();
+        playPauseBtn.textContent = 'Pause';
+      } else {
+        audio.pause();
+        playPauseBtn.textContent = 'Play';
+      }
+    }
+  
+    function toggleMute() {
+      if (audio.muted) {
+        audio.muted = false;
+        muteBtn.textContent = 'Mute';
+      } else {
+        audio.muted = true;
+        muteBtn.textContent = 'Unmute';
+      }
+    }
+  </script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
