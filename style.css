@@ -19,6 +19,10 @@ html {
   z-index: 10;
 }
 
+.nav-logo:hover{
+  opacity: 0.5 !important;
+}
+
 .bg-custom-1, .container-fluid {
   background-color: #252525;
 }
@@ -197,4 +201,18 @@ footer .contact {
 
 .footer p { 
   margin-top: 16px;
+}
+
+.maps-link:hover{
+  color: #ffa552 !important;
+}
+
+.ig-logo:hover{
+  opacity: 0.5 !important;
+}
+.fb-logo:hover{
+  opacity: 0.5 !important;
+}
+.tiktok-logo:hover{
+  opacity: 0.5 !important;
 }
