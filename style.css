@@ -19,6 +19,10 @@ html {
   z-index: 10;
 }
 
+.nav-logo:hover{
+  opacity: 0.5 !important;
+}
+
 .bg-custom-1, .container-fluid {
   background-color: #252525;
 }
@@ -130,7 +134,7 @@ html {
 
 .menu-1 {
   width: 434px;
-  height: 620px;
+  height: 640px;
   background-color: #BE5B00;
   border-radius: 14px;
   box-shadow: 0 4px 2px -2px #111;
@@ -141,6 +145,10 @@ html {
   text-align: center;
   font-weight: 700;
   font-size: 32px;
+}
+
+marquee { 
+  padding-bottom: 18px;
 }
 
 /* Team */
@@ -185,4 +193,26 @@ footer .contact {
   border-radius: 20px;
   box-shadow: 0 1px 2px 1px #111;
   padding-right: 15px;
+}
+
+.footer .logo { 
+  margin: 0 15px 0 15px;
+}
+
+.footer p { 
+  margin-top: 16px;
+}
+
+.maps-link:hover{
+  color: #ffa552 !important;
+}
+
+.ig-logo:hover{
+  opacity: 0.5 !important;
+}
+.fb-logo:hover{
+  opacity: 0.5 !important;
+}
+.tiktok-logo:hover{
+  opacity: 0.5 !important;
 }
