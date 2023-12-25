@@ -287,7 +287,6 @@
       audio.addEventListener('loadedmetadata', function () {
         audio.autoplay = true;
         audio.muted = false;
-        audio.load();
       });
 
       muteImg.src = "/img/mute.png";
@@ -297,6 +296,7 @@
 
         audio.muted = !audio.muted;
         muteImg.src = audio.muted ? "/img/play.png" : "/img/mute.png";
+        audio.load();
         e.preventDefault();
       }, false);
     })
