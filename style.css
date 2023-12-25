@@ -12,6 +12,30 @@ html {
   background-color: #212121;
 }
 
+/* Pause */
+#muteBtn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #BE5B00;
+  border: 1px solid #1C1A1A;
+  transition: ease-in-out 0.3s;
+  z-index: 9999;
+}
+
+#muteBtn:hover {
+  scale: 1.1;
+}
+
+#muteImg {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
 /* Navbar */
 
 .navbar {
@@ -41,15 +65,6 @@ html {
 
 #navbar.scrolled {
   top: -100px;
-}
-
-/* Audio */
-
-.audio-controls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
 }
 
 /* Home */
