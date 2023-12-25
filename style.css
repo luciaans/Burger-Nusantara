@@ -221,6 +221,14 @@ footer .contact {
   margin-top: 16px;
 }
 
+.mail-link:hover {
+  color: #ffa552 !important;
+}
+
+.no-link:hover {
+  color: #ffa552 !important;
+}
+
 .maps-link:hover {
   color: #ffa552 !important;
 }
