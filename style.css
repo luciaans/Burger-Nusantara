@@ -15,7 +15,7 @@ html {
 /* Pause */
 #muteBtn {
   position: fixed;
-  bottom: 10px;
+  bottom: 30px;
   right: 10px;
   border-radius: 50%;
   width: 50px;
