@@ -6,11 +6,11 @@
   color: #FFF;
   box-sizing: border-box;
   font-family: 'Montserrat';
-  scroll-behavior: smooth;
 }
 
 html {
   background-color: #212121;
+  scroll-behavior: smooth;
 }
 
 /* audio */
