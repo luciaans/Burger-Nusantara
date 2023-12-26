@@ -26,7 +26,7 @@
   <!-- Pause Button Audio -->
   <div>
     <button id="muteBtn">
-      <img src="/img/mute.png" id="muteImg">
+      <img src="/img/play.png" id="muteImg">
     </button>
   </div>
 
@@ -338,7 +338,7 @@
       var audio = document.getElementById('myAudio');
       var muteImg = document.getElementById('muteImg');
       var muteBtn = document.getElementById('muteBtn');
-      
+
       audio.addEventListener('loadedmetadata', function () {
         audio.muted = true;
       });
