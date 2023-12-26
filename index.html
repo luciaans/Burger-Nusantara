@@ -18,7 +18,7 @@
 
 <body>
   <!-- Audio -->
-  <audio id="myAudio" controls autoplay loop>
+  <audio id="myAudio" controls loop>
     <source src="/sound/background_music.ogg" type="audio/ogg">
     Your browser does not support the audio element.
   </audio>
@@ -340,11 +340,13 @@
       var muteBtn = document.getElementById('muteBtn');
 
       audio.addEventListener('loadedmetadata', function () {
-        audio.autoplay = true;
+        audio.play().catch(error => {
+          console.error('Autoplay prevented:', error);
+        });
         audio.muted = false;
       });
 
-      muteImg.src = "/img/mute.png";
+      muteImg.src = audio.muted ? "/img/play.png" : "/img/mute.png";
 
       muteBtn.addEventListener('click', function (e) {
         e = e || window.event;
