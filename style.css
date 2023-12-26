@@ -12,7 +12,7 @@ html {
   background-color: #212121;
 }
 
-/* Pause */
+/* audio */
 #muteBtn {
   position: fixed;
   bottom: 30px;
@@ -37,7 +37,6 @@ html {
 }
 
 /* Navbar */
-
 .navbar {
   border-bottom: 1px solid black;
   z-index: 10;
@@ -68,7 +67,6 @@ html {
 }
 
 /* Home */
-
 .home {
   background-color: #212121;
   padding: 50px 0 0 0;
@@ -100,7 +98,6 @@ html {
 }
 
 /* About */
-
 .about {
   background-color: #212121;
   padding: 0px 0 60px 0;
@@ -136,7 +133,6 @@ html {
 }
 
 /* Menu */
-
 .menu {
   background-color: #212121;
   padding: 0px 0 60px 0;
@@ -175,8 +171,7 @@ marquee {
   padding-bottom: 18px;
 }
 
-/* Team */
-
+/* Our Team */
 .team {
   background-color: #212121;
   padding: 0px 0 60px 0;
@@ -193,7 +188,6 @@ marquee {
 }
 
 /* Footer */
-
 footer {
   border-top: 1px solid black;
   background-color: #252525;
@@ -225,6 +219,14 @@ footer .contact {
 
 .footer p {
   margin-top: 16px;
+}
+
+.mail-link:hover {
+  color: #ffa552 !important;
+}
+
+.no-link:hover {
+  color: #ffa552 !important;
 }
 
 .maps-link:hover {
