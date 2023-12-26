@@ -338,18 +338,19 @@
       var audio = document.getElementById('myAudio');
       var muteImg = document.getElementById('muteImg');
       var muteBtn = document.getElementById('muteBtn');
-
+      
       audio.addEventListener('loadedmetadata', function () {
-        audio.play().catch(error => {
-          console.error('Autoplay prevented:', error);
-        });
-        audio.muted = false;
+        audio.muted = true;
       });
 
-      muteImg.src = audio.muted ? "/img/play.png" : "/img/mute.png";
+      muteImg.src = "/img/play.png";
 
       muteBtn.addEventListener('click', function (e) {
         e = e || window.event;
+
+        audio.play().catch(error => {
+          console.error('Autoplay prevented:', error);
+        });
 
         audio.muted = !audio.muted;
         muteImg.src = audio.muted ? "/img/play.png" : "/img/mute.png";
