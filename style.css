@@ -230,6 +230,10 @@ footer .form input, footer .form textarea {
   margin-top: 5px;
 }
 
+footer .form textarea {
+  height: 140px;
+}
+
 footer .form input:hover, footer .form textarea:hover {
   width: 250px;
   background-color: #BE5B00;
