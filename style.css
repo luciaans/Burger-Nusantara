@@ -208,8 +208,60 @@ footer .img-logo {
   padding-right: 15px;
 }
 
-footer .img-logo h4 {
+footer .img-logo h4, footer .form h4 {
   color: #ffa552;
+}
+
+footer .form {
+  background-color: #212121;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 1px #111;
+  padding: 15px 15px 30px 15px;
+  text-align: center;
+}
+
+footer .form input, footer .form textarea {
+  width: 250px;
+  background-color: #BE5B00;
+  border: 1px solid #BE5B00;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+footer .form input:hover, footer .form textarea:hover {
+  width: 250px;
+  background-color: #BE5B00;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+footer .form .email::-webkit-input-placeholder {
+  color: rgb(197, 190, 190);
+  padding: 10px;
+}
+
+footer .form .pesan::-webkit-input-placeholder {
+  color: rgb(197, 190, 190);
+  padding: 5px;
+}
+
+footer .form button {
+  width: 110px;
+  background-color: #f10404;
+  border-radius: 10px;
+  border: 1px solid #f10404;
+}
+
+footer .form button:hover {
+  width: 110px;
+  background-color: #f10404;
+  border-radius: 10px;
+  border: 1px solid white;
 }
 
 footer .contact {
